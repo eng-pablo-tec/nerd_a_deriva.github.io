@@ -41,16 +41,16 @@ body{
 
     .container{
         display: flex;
-        flex-flow: row wrap;
         height: 600px;
     }
     .barra_vertical{
+        display: flex;
         text-align: center;
         flex-direction: column;
         flex: 5%;
         background:blue;
         font-size: 15px;
-        border: 1px solid red;
+        border: 1px solid rgb(141, 205, 39);
         background:rgba(201, 129, 12, 0.663);
     }
    
@@ -59,4 +59,37 @@ body{
         background:blue;
         font-size: 15px;
         border: 1px solid red;
+    }
+       
+    .sala_tv{
+        flex: 70%;
+        background:blue;
+        font-size: 15px;
+        border: 1px solid red;
+    }
+
+    .barra_direita{
+        display: flex;
+        flex: 15%;
+        text-align:left;
+        padding: 10px;
+        flex-direction: column;
+        background:blue;
+        font-size: 15px;
+        border: 1px solid red;
+        background:rgba(102, 96, 86, 0.663);
+        font-size:15px;
+        
+        
+    }
+
+    .barra_direita > * {
+        margin-bottom: 10px;
+        text-decoration: none;
+        background: red;
+        font-size:25px;
+        border-radius: 5px;
+        padding: 15px;
+        color: black;
+        border: 5px solid rgb(255, 255, 255);
     }
