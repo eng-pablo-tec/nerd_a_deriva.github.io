@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    }
+
+.navbar_1{
+    display: flex;
+    height: 100px;
+    background: rgb(87, 161, 60);
+    border: 1px solid red;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ 
+    }
+   .logo{
+    font-size: 20px;
+   } 
+    .menu a{
+        color: Black;
+        text-decoration: none;
+        background: red;
+        font-size:25px;
+        border-radius:10px;
+        border: 2.5px solid white;
+        Padding: 2px;
+        
+    }
+
+    .menu a:hover{
+        color: rgb(252, 252, 206);
+        text-decoration: none;
+        font-size:25px;
+    }
+
+    .container{
+        display: flex;
+        flex-flow: row wrap;
+        height: 600px;
+    }
+    .barra_vertical{
+        text-align: center;
+        flex-direction: column;
+        flex: 5%;
+        background:blue;
+        font-size: 15px;
+        border: 1px solid red;
+        background:rgba(201, 129, 12, 0.663);
+    }
+   
+    .corpo_do_site{
+        flex: 95%;
+        background:blue;
+        font-size: 15px;
+        border: 1px solid red;
+    }
