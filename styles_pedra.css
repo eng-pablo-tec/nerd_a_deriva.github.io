@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: rgb(190, 190, 190);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+}
+
+.menu_player_1, .menu_player_2{
+    text-align: center;
+    width: 25%;
+}
+
+.menu_player_1{
+    float: left;
+}
+
+.menu_player_2{
+    float: right;
+}
+
+.item-menu {
+    font-size: 50px;
+    display: block;
+    color: rgb(255, 255, 255);
+    margin: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: blue;
+}
+
+.item-menu:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.imagem-goku, .imagem-yu {
+    margin: 25px;
+}
+
+.resultado-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resultado-texto, .placar-texto {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    }
+
+    .placar-texto {
+        text-align: center;
+        color: rgb(255,255,255);
+    }
+
+    #escolha_computador{
+        display: none;
+    }

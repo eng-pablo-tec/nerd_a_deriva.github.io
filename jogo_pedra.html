@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jogo - Pedra, Papel e Tesoura">
+    <meta name="keywords" content="Jogo, Pedra Papel e Tesoura">
+    <meta name="author" content="Eng Pablo Henrique Hunter">
+    <meta http-equiv="X-UA-Comtatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="styles_pedra.css">
+
+    <title>Pedra Papel Tesoura</title>
+</head>
+<body>
+    <nav class="titulo">Pedra Papel Tesoura</nav>
+    
+    <div class="container">
+        <p id="placar" class="placar-texto">Vitórias: 0 x Derrotas: 0</p>
+        <div class="menu_player_1">
+            <img src="imagens/gokub_1.gif" class="imagem-goku" height="250">
+            <p id="botao_pedra" class="item-menu">Pedra</p>
+            <p id="botao_papel" class="item-menu">Papel</p>
+            <p id="botao_tesoura" class="item-menu">Tesoura</p>
+        </div>
+
+        <div class="menu_player_2">
+            <img src="imagens/yu_1.gif" class="imagem-yu" height="250">
+            <p class="item-menu">???????</p>
+            <p class="item-menu">???????</p>
+            <p class="item-menu">???????</p>
+            <p id="escolha_computador" class="item-menu">???????</p>
+            
+        </div>
+    </div>
+    
+    <div class="resultado-container">
+        <p id="resultado" class="resultado-texto"></p>
+        
+    </div>
+    
+    <audio id="background-audio" src="assets/musica_luta.mp3" autoplay loop></audio>
+
+    <script src="script_pedra.js"></script>
+</body>
+</html>
