@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show do Milhão</title>
+    <link rel="stylesheet" href="styles_show.css">
+</head>
+<body>
+    <div class="painel_jogo">
+        <div id="pergunta_id" class="pergunta">Pergunta</div>
+        <div class="painel_alternativas">
+            <div class="coluna_horizontal" onclick="responder(0)">
+                <div class="letra">A</div>
+                <div id="alternativa1_id" class="alternativas">1</div>
+            </div>
+            <div class="coluna_horizontal" onclick="responder(1)">
+                <div class="letra">B</div>
+                <div id="alternativa2_id" class="alternativas">2</div>
+            </div>
+            <div class="coluna_horizontal" onclick="responder(2)">
+                <div class="letra">C</div>
+                <div id="alternativa3_id" class="alternativas">3</div>
+            </div>
+            <div class="coluna_horizontal" onclick="responder(3)">
+                <div class="letra">D</div>
+                <div id="alternativa4_id" class="alternativas">4</div>
+            </div>
+        </div>
+        <div class="painel_ajuda">
+            <div class="ajuda">
+                <button id="universitarios_btn" class="botoes_opcoes" onclick="universitarios()">Universitários</button>
+                <button id="pulo1" class="pular" onclick="pularPergunta(this)">Pular</button>
+                <button id="pulo2" class="pular" onclick="pularPergunta(this)">Pular</button>
+                <button id="pulo3" class="pular" onclick="pularPergunta(this)">Pular</button>
+                <button id="parar_btn" onclick="parar()">Parar</button>
+            </div>
+        </div>
+        <div id="placar">Placar: 0</div>
+    </div>
+    <div id="fim_jogo" style="display:none;">
+        <h1>Fim de Jogo</h1>
+        <p>Sua pontuação final é: <span id="pontuacao_final"></span></p>
+        <button class="botoes_opcoes" onclick="game()">Novo Jogo</button>
+    </div>
+    <script src="script_show.js"></script>
+</body>
+</html>

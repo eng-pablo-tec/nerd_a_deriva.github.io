@@ -1,0 +1,408 @@
+[
+    {
+        "question": "Qual é a capital da França?",
+        "answers": [
+            {"text": "Paris", "correct": true},
+            {"text": "Londres", "correct": false},
+            {"text": "Berlim", "correct": false},
+            {"text": "Madri", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem escreveu 'Romeu e Julieta'?",
+        "answers": [
+            {"text": "William Shakespeare", "correct": true},
+            {"text": "Charles Dickens", "correct": false},
+            {"text": "Jane Austen", "correct": false},
+            {"text": "Fyodor Dostoevsky", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o símbolo químico para o ouro?",
+        "answers": [
+            {"text": "Au", "correct": true},
+            {"text": "Ag", "correct": false},
+            {"text": "Fe", "correct": false},
+            {"text": "Cu", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem pintou 'A Noite Estrelada'?",
+        "answers": [
+            {"text": "Vincent van Gogh", "correct": true},
+            {"text": "Pablo Picasso", "correct": false},
+            {"text": "Leonardo da Vinci", "correct": false},
+            {"text": "Salvador Dalí", "correct": false}
+        ]
+    },
+    {
+        "question": "Quantos continentes existem?",
+        "answers": [
+            {"text": "7", "correct": false},
+            {"text": "6", "correct": true},
+            {"text": "5", "correct": false},
+            {"text": "8", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem foi o primeiro presidente dos Estados Unidos?",
+        "answers": [
+            {"text": "George Washington", "correct": true},
+            {"text": "Thomas Jefferson", "correct": false},
+            {"text": "Abraham Lincoln", "correct": false},
+            {"text": "John Adams", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem escreveu 'Dom Quixote'?",
+        "answers": [
+            {"text": "Miguel de Cervantes", "correct": true},
+            {"text": "Fernando Pessoa", "correct": false},
+            {"text": "William Shakespeare", "correct": false},
+            {"text": "Machado de Assis", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o maior planeta do Sistema Solar?",
+        "answers": [
+            {"text": "Júpiter", "correct": true},
+            {"text": "Terra", "correct": false},
+            {"text": "Saturno", "correct": false},
+            {"text": "Urano", "correct": false}
+        ]
+    },
+    {
+        "question": "Em que ano o Titanic afundou?",
+        "answers": [
+            {"text": "1912", "correct": true},
+            {"text": "1915", "correct": false},
+            {"text": "1917", "correct": false},
+            {"text": "1910", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o animal mais rápido do mundo?",
+        "answers": [
+            {"text": "Peregrine Falcon", "correct": true},
+            {"text": "Cheetah", "correct": false},
+            {"text": "Blue Wildebeest", "correct": false},
+            {"text": "Sailfish", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem descobriu a penicilina?",
+        "answers": [
+            {"text": "Alexander Fleming", "correct": true},
+            {"text": "Marie Curie", "correct": false},
+            {"text": "Albert Einstein", "correct": false},
+            {"text": "Louis Pasteur", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o metal mais raro da Terra?",
+        "answers": [
+            {"text": "Rodium", "correct": true},
+            {"text": "Platina", "correct": false},
+            {"text": "Ouro", "correct": false},
+            {"text": "Paládio", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem escreveu a 'Odisséia'?",
+        "answers": [
+            {"text": "Homero", "correct": true},
+            {"text": "Virgílio", "correct": false},
+            {"text": "Sófocles", "correct": false},
+            {"text": "Aristóteles", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a língua mais falada no mundo?",
+        "answers": [
+            {"text": "Mandarim", "correct": true},
+            {"text": "Espanhol", "correct": false},
+            {"text": "Inglês", "correct": false},
+            {"text": "Hindi", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem foi o primeiro homem a pisar na Lua?",
+        "answers": [
+            {"text": "Neil Armstrong", "correct": true},
+            {"text": "Buzz Aldrin", "correct": false},
+            {"text": "Yuri Gagarin", "correct": false},
+            {"text": "Alan Shepard", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o filme mais lucrativo de todos os tempos?",
+        "answers": [
+            {"text": "Avatar", "correct": true},
+            {"text": "Avengers: Endgame", "correct": false},
+            {"text": "Titanic", "correct": false},
+            {"text": "Star Wars: O Despertar da Força", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem foi o primeiro presidente do Brasil?",
+        "answers": [
+            {"text": "Deodoro da Fonseca", "correct": true},
+            {"text": "Prudente de Morais", "correct": false},
+            {"text": "Getúlio Vargas", "correct": false},
+            {"text": "Juscelino Kubitschek", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a flor nacional do Japão?",
+        "answers": [
+            {"text": "Cerejeira", "correct": true},
+            {"text": "Lótus", "correct": false},
+            {"text": "Orquídea", "correct": false},
+            {"text": "Tulipa", "correct": false}
+        ]
+    },
+    {
+            "question": "Qual é a montanha mais alta do mundo?",
+            "answers": [
+                {"text": "Monte Everest", "correct": true},
+                {"text": "Monte Kilimanjaro", "correct": false},
+                {"text": "Monte McKinley", "correct": false},
+                {"text": "Monte Fuji", "correct": false}
+            ]
+        },
+        {
+            "question": "Quem foi o inventor do telefone?",
+            "answers": [
+                {"text": "Alexander Graham Bell", "correct": true},
+                {"text": "Thomas Edison", "correct": false},
+                {"text": "Nikola Tesla", "correct": false},
+                {"text": "Guglielmo Marconi", "correct": false}
+            ]
+        },
+        {
+            "question": "Qual é o maior rio do mundo em volume de água?",
+            "answers": [
+                {"text": "Rio Amazonas", "correct": true},
+                {"text": "Rio Nilo", "correct": false},
+                {"text": "Rio Yangtzé", "correct": false},
+                {"text": "Rio Mississipi", "correct": false}
+            ]
+        },
+        {
+            "question": "Quem foi o fundador do Facebook?",
+            "answers": [
+                {"text": "Mark Zuckerberg", "correct": true},
+                {"text": "Bill Gates", "correct": false},
+                {"text": "Steve Jobs", "correct": false},
+                {"text": "Larry Page", "correct": false}
+            ]
+        },
+        {
+            "question": "Qual é o autor de '1984'?",
+            "answers": [
+                {"text": "George Orwell", "correct": true},
+                {"text": "Aldous Huxley", "correct": false},
+                {"text": "Ray Bradbury", "correct": false},
+                {"text": "J.R.R. Tolkien", "correct": false}
+            ]
+        },
+        {
+            "question": "Qual é o maior deserto do mundo?",
+            "answers": [
+                {"text": "Deserto do Saara", "correct": true},
+                {"text": "Deserto de Gobi", "correct": false},
+                {"text": "Deserto do Kalahari", "correct": false},
+                {"text": "Deserto da Arábia", "correct": false}
+            ]
+        },
+        {
+            "question": "Quem foi o primeiro ser humano a viajar para o espaço?",
+            "answers": [
+                {"text": "Yuri Gagarin", "correct": true},
+                {"text": "Neil Armstrong", "correct": false},
+                {"text": "Buzz Aldrin", "correct": false},
+                {"text": "Alan Shepard", "correct": false}
+            ]
+        },
+        {
+            "question": "Qual é o maior oceano do mundo?",
+            "answers": [
+                {"text": "Oceano Pacífico", "correct": true},
+                {"text": "Oceano Atlântico", "correct": false},
+                {"text": "Oceano Índico", "correct": false},
+                {"text": "Oceano Ártico", "correct": false}
+            ]
+        },
+        {
+            "question": "Quem pintou a 'Mona Lisa'?",
+            "answers": [
+                {"text": "Leonardo da Vinci", "correct": true},
+                {"text": "Vincent van Gogh", "correct": false},
+                {"text": "Pablo Picasso", "correct": false},
+                {"text": "Salvador Dalí", "correct": false}
+            ]
+        },
+        {
+            "question": "Qual é a velocidade da luz?",
+            "answers": [
+                {"text": "299.792.458 metros por segundo", "correct": true},
+                {"text": "300.000.000 metros por segundo", "correct": false},
+                {"text": "250.000.000 metros por segundo", "correct": false},
+                {"text": "350.000.000 metros por segundo", "correct": false}
+            ]
+        },
+        {
+            "question": "Quem foi o primeiro imperador romano?",
+                "answers": [
+                    {"text": "Júlio César", "correct": false},
+                    {"text": "Augusto", "correct": true},
+                    {"text": "Nero", "correct": false},
+                    {"text": "Calígula", "correct": false}
+                ]
+            },
+            {
+                "question": "Qual é a cidade mais populosa do mundo?",
+                "answers": [
+                    {"text": "Tóquio", "correct": true},
+                    {"text": "Xangai", "correct": false},
+                    {"text": "Delhi", "correct": false},
+                    {"text": "Mumbai", "correct": false}
+                ]
+            },
+            {
+                "question": "Quem escreveu 'O Pequeno Príncipe'?",
+                "answers": [
+                    {"text": "Antoine de Saint-Exupéry", "correct": true},
+                    {"text": "Victor Hugo", "correct": false},
+                    {"text": "Marcel Proust", "correct": false},
+                    {"text": "Franz Kafka", "correct": false}
+                ]
+            },
+            {
+                "question": "Qual é o rio mais longo do mundo?",
+                "answers": [
+                    {"text": "Rio Nilo", "correct": false},
+                    {"text": "Rio Amazonas", "correct": true},
+                    {"text": "Rio Yangtzé", "correct": false},
+                    {"text": "Rio Mississippi", "correct": false}
+                ]
+            },
+            {
+                "question": "Quem foi o fundador da Microsoft?",
+                "answers": [
+                    {"text": "Bill Gates", "correct": true},
+                    {"text": "Steve Jobs", "correct": false},
+                    {"text": "Mark Zuckerberg", "correct": false},
+                    {"text": "Larry Page", "correct": false}
+                ]
+            },
+            {
+                "question": "Qual é o nome do satélite natural da Terra?",
+                "answers": [
+                    {"text": "Lua", "correct": true},
+                    {"text": "Marte", "correct": false},
+                    {"text": "Vênus", "correct": false},
+                    {"text": "Júpiter", "correct": false}
+                ]
+            },
+            {
+                "question": "Quem escreveu 'A Metamorfose'?",
+                "answers": [
+                    {"text": "Franz Kafka", "correct": true},
+                    {"text": "Fyodor Dostoevsky", "correct": false},
+                    {"text": "Gabriel García Márquez", "correct": false},
+                    {"text": "Hermann Hesse", "correct": false}
+                ]
+            },
+            {
+                "question": "Qual é o maior animal terrestre?",
+                "answers": [
+                    {"text": "Elefante africano", "correct": true},
+                    {"text": "Girafa", "correct": false},
+                    {"text": "Baleia azul", "correct": false},
+                    {"text": "Hipopótamo", "correct": false}
+                ]
+            },
+            {
+                "question": "Quem foi o primeiro ser humano a escalar o Monte Everest?",
+                "answers": [
+                    {"text": "Edmund Hillary", "correct": true},
+                    {"text": "Tenzing Norgay", "correct": true},
+                    {"text": "George Mallory", "correct": false},
+                    {"text": "Reinhold Messner", "correct": false}
+                ]
+            },
+            {
+                "question": "Qual é o país mais extenso do mundo?",
+                "answers": [
+                    {"text": "Rússia", "correct": true},
+                    {"text": "Canadá", "correct": false},
+                    {"text": "China", "correct": false},
+                    {"text": "Estados Unidos", "correct": false}
+                ]
+            },
+            {
+                "question": "Quem pintou 'A Última Ceia'?",
+                "answers": [
+                    {"text": "Leonardo da Vinci", "correct": true},
+                    {"text": "Michelangelo", "correct": false},
+                    {"text": "Rafael", "correct": false},
+                    {"text": "Sandro Botticelli", "correct": false}
+                ]
+            },
+            {
+                "question": "Qual é o menor planeta do Sistema Solar?",
+                "answers": [
+                    {"text": "Mercúrio", "correct": true},
+                    {"text": "Vênus", "correct": false},
+                    {"text": "Marte", "correct": false},
+                    {"text": "Plutão", "correct": false}
+                ]
+            },
+            {
+                "question": "Quem foi o criador da Teoria da Relatividade?",
+                "answers": [
+                    {"text": "Albert Einstein", "correct": true},
+                    {"text": "Isaac Newton", "correct": false},
+                    {"text": "Niels Bohr", "correct": false},
+                    {"text": "Stephen Hawking", "correct": false}
+                ]
+            },
+            {
+                "question": "Qual é o maior animal marinho?",
+                "answers": [
+                    {"text": "Baleia-azul", "correct": true},
+                    {"text": "Cachalote", "correct": false},
+                    {"text": "Tubarão-baleia", "correct": false},
+                    {"text": "Orca", "correct": false}
+                ]
+            },
+            {
+                "question": "Quem foi o primeiro astronauta a orbitar a Terra?",
+                "answers": [
+                    {"text": "Yuri Gagarin", "correct": true},
+                    {"text": "Neil Armstrong", "correct": false},
+                    {"text": "Buzz Aldrin", "correct": false},
+                    {"text": "John Glenn", "correct": false}
+                ]
+            },
+            {
+                "question": "Qual é o maior animal voador?",
+                "answers": [
+                    {"text": "Pterossauro", "correct": true},
+                    {"text": "Condor-da-califórnia", "correct": false},
+                    {"text": "Andorinhão-preto", "correct": false},
+                    {"text": "Albatroz-errante", "correct": false}
+                ]
+            },
+            {
+                "question": "Quem é o autor de 'Crime e Castigo'?",
+                "answers": [
+                    {"text": "Fyodor Dostoevsky", "correct": true},
+                    {"text": "Leo Tolstoy", "correct": false},
+                    {"text": "Anton Chekhov", "correct": false},
+                    {"text": "Vladimir Nabokov", "correct": false}
+                ]
+            }
+        ]
+        

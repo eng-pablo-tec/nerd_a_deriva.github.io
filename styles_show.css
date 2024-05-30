@@ -1,0 +1,191 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+}
+
+#parar_btn{
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    Font-size: 20px;
+    background-color: rgb(139, 160, 62);
+    border-radius: 100px;
+    margin: 20px;
+    border: 10px double black;
+    color: white;
+}
+.painel_jogo {
+    width: 100%;
+    height: 600px;
+}
+
+.painel_imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    border: 1px solid yellow;
+}
+
+.painel_nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 10%;
+    border: 2px solid rgb(1, 255, 98);
+}
+
+.painel_botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 20%;
+}
+
+.botao {    
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    Font-size: 20px;
+    background-color: orangered;
+    border-radius: 100px;
+    margin: 20px;
+    border: 10px double black;
+    color: white;
+}
+
+#nome_jogador {
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+    Font-size: 20px;
+    background-color: rgb(255, 217, 0);
+    border-radius: 10px;
+    margin: 20px;
+    border: 10px solid rgb(255, 0, 0);
+    color: grey;
+}
+
+#botao_enviar {
+    text-align: center;
+    padding: 5px;
+    font-weight: 300;
+    Font-size: 20px;
+    background-color: green;
+    border-radius: 10px;
+    margin: 20px;
+    border: 5px solid white;
+    color: white;
+}
+
+.pergunta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    height: 20%;
+    max-width: 100%;
+    margin: 10px;
+    border: 3px solid white;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.painel_alternativas {
+    Float: left;
+    height: 80%;
+    width: 60%;
+    border: 1px solid red;
+}
+
+.painel_ajuda {
+    Float: left;
+    height: 80%;
+    width: 39%;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.painel_opcoes {
+    height: 80%;
+    width: 20%;
+    border: 1px solid red;
+}
+
+.coluna_horizontal {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    height: 50px;
+    max-width: 80%;
+    margin: 30px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    border-radius: 30px;
+}
+
+.botao_placar {    
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    Font-size: 20px;
+    background-color: orangered;
+    border-radius: 100px;
+    margin: 20px;
+    border: 10px double black;
+    color: white;
+}
+
+.letra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: white;
+    color: blue;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.alternativas {
+    padding-left: 10px;
+}
+
+.botoes_opcoes {
+    position: relative;
+    top: 1px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: orangered;
+    border-radius: 100px;
+    margin: 20px;
+    border: 10px double black;
+    color: rgb(255, 255, 255);
+}
+
+.pular {
+    position: relative;
+    top: 1px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: cyan;
+    border-radius: 100px;
+    margin: 20px;
+    border: 10px double grey;
+    color: grey;
+    cursor: pointer;
+}
+
+.pular:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}

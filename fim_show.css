@@ -1,0 +1,47 @@
+/* CSS existente omitido para brevidade */
+
+.placar {
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+
+.fim_jogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.mensagem_fim {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mensagem_fim h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.mensagem_fim p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.mensagem_fim button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
